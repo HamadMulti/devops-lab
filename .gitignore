@@ -1,0 +1,8 @@
+# Environment variables
+.devopslab
+venv
+.venv
+.env
+.vscode
+.pytest_cache
+__pycache__
