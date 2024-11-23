@@ -8,6 +8,7 @@
     "pycache",
     "pylint",
     "pytest",
+    "PYTHONUNBUFFERED",
     "venv"
   ],
   "DockerRun.DisableDockerrc": true
