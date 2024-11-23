@@ -1,0 +1,3 @@
+# DevOps Lab
+
+This project is oriented on deep and comprehensive analysis of the DevOps tools and practices following the structure that concentrates on functionality and best practices. Analyzing the advantages and disadvantages of such tools as well as their potential in other applications, we are therefore going to come out with new ways of developing such tools and ways to optimize their use. After providing you with a step-by-step walkthrough of constructing a DevOps pipeline, the project will be concluded with a reflective analysis and recommendations for enhancing DevOps processes and consequently, the end results of your projects.
