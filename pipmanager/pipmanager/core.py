@@ -10,15 +10,13 @@ class PipManager:
     def list_packages():
         """List all installed pip packages."""
         logging.info("Fetching the list of installed packages...")
-        result = subprocess.run([sys.executable, "-m", "pip", "list"])
-        return result
+        return subprocess.run([sys.executable, "-m", "pip", "list"])
 
     @staticmethod
     def check_updates():
         """Check for outdated pip packages."""
         logging.info("Checking for outdated packages...")
-        result = subprocess.run([sys.executable, "-m", "pip", "list", "--outdated"])
-        return result
+        return subprocess.run([sys.executable, "-m", "pip", "list", "--outdated"])
 
     @staticmethod
     def install_package(package_name):
