@@ -2,6 +2,7 @@ README.md
 setup.py
 pipmanager/__init__.py
 pipmanager/core.py
+pipmanager/manager.py
 pipmanager.egg-info/PKG-INFO
 pipmanager.egg-info/SOURCES.txt
 pipmanager.egg-info/dependency_links.txt
