@@ -11,8 +11,8 @@ importlib-metadata==8.5.0
 iniconfig==2.0.0
 isort==5.13.2
 mccabe==0.7.0
-packaging==24.2
--e git+https://github.com/HamadMulti/devops-lab.git@a61fad4e7cc99012e4e1e3f5d6e1e50b5ad8fa07#egg=pipmanager&subdirectory=pipmanager
+# packaging==24.2
+# -e git+https://github.com/HamadMulti/devops-lab.git@a61fad4e7cc99012e4e1e3f5d6e1e50b5ad8fa07#egg=pipmanager&subdirectory=pipmanager
 platformdirs==4.3.6
 pluggy==1.5.0
 pylint==3.2.7
