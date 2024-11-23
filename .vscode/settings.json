@@ -9,5 +9,6 @@
     "pylint",
     "pytest",
     "venv"
-  ]
+  ],
+  "DockerRun.DisableDockerrc": true
 }
