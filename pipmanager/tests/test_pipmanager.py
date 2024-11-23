@@ -41,13 +41,13 @@ def test_uninstall_package(mock_subprocess_run):
     result = PipManager.uninstall_package("example-package")
     assert result == "Successfully uninstalled example-package"
 
-def test_upgrade_all(self, mock_subprocess):
-    mock_subprocess.return_value = subprocess.CompletedProcess(
+def test_upgrade_all(mock_subprocess_run):
+    mock_subprocess_run.return_value = subprocess.CompletedProcess(
         args=["pip", "list", "--outdated"],
         returncode=0,
         stdout="package1 1.0.0 1.1.0\npackage2 2.0.0 2.1.0\n",
     )
-    mock_subprocess.side_effect = [
+    mock_subprocess_run.side_effect = [
         subprocess.CompletedProcess(
             args=["pip", "install", "--upgrade", "package1"],
             returncode=0,
@@ -61,4 +61,3 @@ def test_upgrade_all(self, mock_subprocess):
     ]
     result = PipManager.upgrade_all()
     assert result == "Successfully upgraded package1\nSuccessfully upgraded package2"
-
