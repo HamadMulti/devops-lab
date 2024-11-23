@@ -1,8 +1,13 @@
 {
   "cSpell.words": [
+    "devopslab",
     "Hamad",
+    "levelname",
     "numpy",
     "pipmanager",
-    "pytest"
+    "pycache",
+    "pylint",
+    "pytest",
+    "venv"
   ]
 }

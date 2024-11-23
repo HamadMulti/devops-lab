@@ -1,10 +1,11 @@
 README.md
 setup.py
 pipmanager/__init__.py
-pipmanager/pipmanager.py
+pipmanager/core.py
 pipmanager.egg-info/PKG-INFO
 pipmanager.egg-info/SOURCES.txt
 pipmanager.egg-info/dependency_links.txt
 pipmanager.egg-info/entry_points.txt
 pipmanager.egg-info/top_level.txt
+tests/__init__.py
 tests/test_pipmanager.py

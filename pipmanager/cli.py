@@ -1,5 +1,5 @@
 import argparse
-from pipmanager import PipManager
+from pipmanager.core import PipManager
 
 def main():
     parser = argparse.ArgumentParser(description="A tool to manage pip packages.")
