@@ -23,7 +23,7 @@ jobs:
       - name: Build the Docker image
         run: |
           docker build . \
-            --file Dockerfile \
+            --file devops/Dockerfile \
             --tag ${{ secrets.DOCKER_USERNAME }}/my-image-name:latest
 
       - name: Push Docker image to Docker Hub
