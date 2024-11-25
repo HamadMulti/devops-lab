@@ -24,8 +24,8 @@ jobs:
         run: |
           docker build . \
             --file Dockerfile \
-            --tag ${{ secrets.DOCKER_USERNAME }}/my-image-name:latest
+            --tag ${{ secrets.DOCKER_USERNAME }}/devops-django:latest
 
       - name: Push Docker image to Docker Hub
         run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/my-image-name:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/devops-django:latest

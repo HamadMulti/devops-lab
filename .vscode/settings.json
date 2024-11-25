@@ -1,15 +1,21 @@
 {
   "cSpell.words": [
+    "collectstatic",
     "devopslab",
+    "gunicorn",
     "Hamad",
     "levelname",
+    "libsqlite",
+    "makemigrations",
+    "njmuh",
     "numpy",
     "pipmanager",
     "pycache",
     "pylint",
     "pytest",
     "PYTHONUNBUFFERED",
-    "venv"
+    "venv",
+    "wsgi"
   ],
   "DockerRun.DisableDockerrc": true
 }

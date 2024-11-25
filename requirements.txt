@@ -1,0 +1,26 @@
+asgiref==3.8.1
+astroid==3.2.4
+# backports.zoneinfo==0.2.1
+build==1.2.2.post1
+click==8.1.7
+dill==0.3.9
+Django==4.2.16
+exceptiongroup==1.2.2
+gunicorn==23.0.0
+importlib-metadata==8.5.0
+iniconfig==2.0.0
+isort==5.13.2
+mccabe==0.7.0
+# packaging==24.2
+# -e git+https://github.com/HamadMulti/devops-lab.git@a61fad4e7cc99012e4e1e3f5d6e1e50b5ad8fa07#egg=pipmanager&subdirectory=pipmanager
+platformdirs==4.3.6
+pluggy==1.5.0
+pylint==3.2.7
+pyproject-hooks==1.2.0
+pytest==8.3.3
+pytest-mock==3.14.0
+sqlparse==0.5.2
+tomli==2.1.0
+tomlkit==0.13.2
+typing-extensions==4.12.2
+zipp==3.20.2
